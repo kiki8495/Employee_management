@@ -1,1 +1,2 @@
-Save the file in http://localhost/Proyecto_laboratorio/FRONTEND/home.php and use XAMPP.
+Un proyecto de manejo e inspeccion de usuarios empleados, utilizando php, html, css y xampp.
+Save the file in C:\xampp\htdocs

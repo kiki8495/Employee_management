@@ -1,4 +1,4 @@
-A project for managing and inspecting employee users, using php, html, css and xampp.
-https://vital.learnofficial.org/index.html
-mail: marcela.ramos@empresa.com
+A project for the management and inspection of employed users, using php, html, css and xampp.
+The link to the Web Application is still a Work in Progress.
+email: marcela.ramos@empresa.com
 password: 123

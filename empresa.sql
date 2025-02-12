@@ -73,8 +73,8 @@ CREATE TABLE `empleados` (
 --
 
 INSERT INTO `empleados` (`id`, `imagen`, `nombre`, `departamento`, `cargo`, `fecha_contrato`, `salario`, `cedula`, `fecha_nacimiento`, `correo`, `contrasena`, `direccion`) VALUES
-(1, '/uploads/user-avatar.png', 'Cristhian Morales', 'Ventas', 'Vendedor', '2024-01-15', 1230000.00, '123456789', '2002-12-17', 'cristhian_mora@email.com', 'contraseña123', 'Calle 19B sur #16-67'),
-(2, '/uploads/marcela_ramos.jpeg', 'Marcela Ramos', 'Recursos Humanos', 'Gerente de RRHH', '2022-05-15', 230200.50, '1122334455', '1985-08-12', 'marcela.ramos@empresa.com', '123', 'Carrera 48 #8-9');
+(1, '/wwwroot/uploads/user-avatar.png', 'Cristhian Morales', 'Ventas', 'Vendedor', '2024-01-15', 1230000.00, '123456789', '2002-12-17', 'cristhian_mora@email.com', 'contraseña123', 'Calle 19B sur #16-67'),
+(2, '/wwwroot/uploads/marcela_ramos.jpeg', 'Marcela Ramos', 'Recursos Humanos', 'Gerente de RRHH', '2022-05-15', 230200.50, '1122334455', '1985-08-12', 'marcela.ramos@empresa.com', '123', 'Carrera 48 #8-9');
 
 -- --------------------------------------------------------
 
@@ -95,8 +95,8 @@ CREATE TABLE `nomina` (
 --
 
 INSERT INTO `nomina` (`id`, `id_empleado`, `mes`, `anio`, `archivo`) VALUES
-(1, 1, 8, 2024, '/uploads/nominas/01_08_2024.pdf'),
-(2, 1, 9, 2024, '/uploads/nominas/01_09_2024.pdf');
+(1, 1, 8, 2024, '/wwwroot/uploads/nominas/01_08_2024.pdf'),
+(2, 1, 9, 2024, '/wwwroot/uploads/nominas/01_09_2024.pdf');
 
 -- --------------------------------------------------------
 
@@ -116,9 +116,9 @@ CREATE TABLE `ventas` (
 --
 
 INSERT INTO `ventas` (`id`, `mes`, `anio`, `archivo`) VALUES
-(1, 8, 2024, '/uploads/ventas/082024.pdf'),
-(2, 9, 2024, '/uploads/ventas/092024.pdf'),
-(3, 10, 2024, '/uploads/ventas/102024.pdf');
+(1, 8, 2024, '/wwwroot/uploads/ventas/082024.pdf'),
+(2, 9, 2024, '/wwwroot/uploads/ventas/092024.pdf'),
+(3, 10, 2024, '/wwwroot/uploads/ventas/102024.pdf');
 
 --
 -- Indexes for dumped tables

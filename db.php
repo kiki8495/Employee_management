@@ -1,12 +1,13 @@
 <?php
 // Declaración de variables globales
-$host = "empresa.cdymoi04qjie.us-east-2.rds.amazonaws.com"; // Variable global para el host
-$port = "3306"; // Puerto por defecto de MySQL
-$username = "admin";
-$password = "123456789"; // Si tienes contraseña, ponla aquí
+$host = "empresa.mysql.database.azure.com";
+$port = "3306";
+$username = "mysqladmin";
+$password = "Admin123";
 $dbname = "empresa";
 
-function connect_database() {
+function connect_database()
+{
     // Declaración de las variables globales dentro de la función
     global $host, $port, $username, $password, $dbname;
 
@@ -19,4 +20,3 @@ function connect_database() {
     }
     return $conn;
 }
-?>

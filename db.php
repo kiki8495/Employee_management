@@ -1,6 +1,6 @@
 <?php
 // Declaración de variables globales
-$host = "empresa.mysql.database.azure.com";
+$host = "empresaproyecto.mysql.database.azure.com";
 $port = "3306";
 $username = "mysqladmin";
 $password = "Admin123";
